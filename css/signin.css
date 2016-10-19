@@ -1,0 +1,45 @@
+
+#container{
+    text-align: center;
+    margin-top: 30px;
+
+
+
+}
+.buttons{
+
+    font-family: Verdana;
+    float: left;
+    margin-top: 30px;
+    margin-left: 300px;
+
+}
+#for{
+    float: left;
+
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.container button{
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+input{
+
+    margin-top: 10px;
+}
+.sign{
+    float: right;
+    margin-right: 50px;
+
+
+}
+input [type=submit]{
+
+    border-radius: 5px;
+}
