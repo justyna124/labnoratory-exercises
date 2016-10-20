@@ -21,9 +21,27 @@ form{
 }
 .jack{
     float: left;
-    margin-left: 200px;
+    margin-left: 300px;
+    margin-bottom: 30px;
 }
 .info{
 
+}
+.sophia{
+    margin-top: 30px;
+    clear: both;
+    margin-left: 300px;
+
+}
+p{
+    float: left;
+    margin-left: 30px;
+}
+.sophia p{
+    float: right;
+    margin-right: 950px;
+}
+.container{
+    margin-top: 100px;
 }
 
