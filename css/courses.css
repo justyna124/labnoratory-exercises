@@ -1,0 +1,39 @@
+.container{
+    margin-left: 100px;
+}
+.course{
+    width: 55%;
+}
+a{
+    margin-left: 300px;
+}
+select{
+    width:220px;
+    margin-left: 70px;
+}
+.wrap p{
+    float: left;
+
+
+}
+.wrap{
+    margin-top: 40px;
+}
+.pict{
+    margin-top: -100px;
+
+
+}
+p{
+    font-size: 14px;
+}
+img{
+    margin-left: 40px;
+}
+button{
+    margin-left: 890px;
+    margin-top: 20px;
+    height: 29px;
+    padding: 7px 5px 7px 5px;
+
+}

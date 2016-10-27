@@ -2,12 +2,13 @@
 table{
     font-size: 8px;
     font-weight: normal;
+    border-collapse: collapse;
 }
 #table {
     margin-right: 400px;
     margin-left: 400px;
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
+
+
 
 
 }
@@ -20,7 +21,7 @@ table tr td{
 
     padding: 10px 20px 10px 0px;
 
-    border-bottom: 1px solid #000;
+
 
 }
 #news{
@@ -43,6 +44,9 @@ p{
 
 ul{
     font-size: 10px;
+}
+td{
+    border-collapse: collapse;
 }
 
 
