@@ -2,60 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>courses</title>
     <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 </head>
 <body>
 
 <div class="container">
     <div class="title">
-      <h3>Courses</h3>
+        <div class="row">
+            <h3>Courses</h3>
+        </div>
     </div>
-    <div class="wrap">
-    <div class="wrap f">
-        <div class="form">
-            <form>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="wrap">
 
-                <label id="select" for="select">Select of course</label>
-                <select name="select">
-                    <option>course A</option>
-                    <option>course B</option>
-
-                </select>
-                <a href="www.google.pl">Syllabus</a>
-            </form>
+                    <div class="wrapf">
+                        <div class="form">
 
 
+
+
+                                <label id="select" for="select">Select of course</label>
+                                <select name="select" class="btn btn-default btn-xs">
+                                    <option>course A</option>
+                                    <option>course B</option>
+
+                                </select>
+                               <ins><a href="www.google.pl" class="col-md-offset-3">Syllabus</a></ins>
+                            </form>
+
+
+                        </div>
+
+
+                        <div class="course">
+                            <h4>Course A</h4>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus justo in mauris
+                                porttitor interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                                fames
+                                ac turpis egestas. In ut ex rutrum velit suscipit mattis. Cras eget est eget libero
+                                porttitor
+                                luctus. Etiam ac dapibus mauris. Nam sed nibh convallis, pharetra eros vitae, hendrerit
+                                nibh.
+                                Nunc eget mattis lorem, eget dictum nisl. Suspendisse posuere mauris condimentum nibh
+                                consequat
+                                iaculis vitae sed tellus. Aenean dapibus tortor nunc, eget pretium augue pellentesque a.
+                                Donec
+                                viverra est ac ex lobortis lacinia. Quisque magna mi, fermentum sit amet eleifend vel,
+                                hendrerit
+                                a metus. Aenean lacinia, sem placerat bibendum pretium, purus nisi tincidunt sapien,
+                                vitae
+                                tempus dui velit eget elit. Mauris porta felis ac est dignissim cursus. Aliquam et lorem
+                                libero.
+                                Mauris nec volutpat urna. Vestibulum eget vulputate libero, eu aliquam lorem.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="wrap p">
+                    <div class="pict">
+
+                        <img src="assets/img/fot1.jpg" width="250" height="250">
+
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-       <div class="course">
-           <h4>Course A</h4>
-           <p>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus justo in mauris porttitor interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut ex rutrum velit suscipit mattis. Cras eget est eget libero porttitor luctus. Etiam ac dapibus mauris. Nam sed nibh convallis, pharetra eros vitae, hendrerit nibh. Nunc eget mattis lorem, eget dictum nisl. Suspendisse posuere mauris condimentum nibh consequat iaculis vitae sed tellus. Aenean dapibus tortor nunc, eget pretium augue pellentesque a. Donec viverra est ac ex lobortis lacinia. Quisque magna mi, fermentum sit amet eleifend vel, hendrerit a metus. Aenean lacinia, sem placerat bibendum pretium, purus nisi tincidunt sapien, vitae tempus dui velit eget elit. Mauris porta felis ac est dignissim cursus. Aliquam et lorem libero. Mauris nec volutpat urna. Vestibulum eget vulputate libero, eu aliquam lorem.
-           </p>
-
-       </div>
-        </div>
-
-
-
     </div>
-
-<div class="wrap p">
-    <div class="pict">
-
-            <img src="assets/img/fot1.jpg" width="240" height="240">
-
-        </div>
-
-    <button>
+    </br>
+    <button class="btn btn-default btn-md active col-md-offset-9" role="button">
         Subscribe the newsletter
     </button>
 
 </div>
-
-
 
 
 </div>

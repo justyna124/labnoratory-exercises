@@ -1,67 +1,21 @@
-
-.container{
-    margin-left: 200px;
-}
-
-
-
-
-label,input, select{
-    width: 200px;
-    display: inline-block;
-    margin-bottom: 10px;
-    font-size: 12px;
-
-}
-option{
+button{
     width: 150px;
+    margin-top: 20px;
 }
-.basic{
-    float: left;
-}
-
 img{
-    margin: 0 20px 0 20px;
-    margin-left: 200px;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
-.avatar button{
-    margin-left: 180px;
-    margin-top: 30px;
-    width: 140px;
-}
-.wrap p{
+.password.button{
 
-
-    margin-top: 50px;
+    margin-left: 50px;
 }
+
 .password{
 
-    float: left;
-
-    clear: both;
+    margin-left: 20px;
 }
-input [type=submit]{
-    margin-left: 200px;
-}
-.password button{
+.margin-l{
 
-    margin-left: 205px;
-    width:140px;
-   padding: 5px;
-
-}
-
-.additional{
-
-    clear: both;
-}
-.buttons{
-    margin-left: 300px;
-margin-top: 30px;
-    width: 100%;
-}
-.buttons button{
-    width:140px;
-    height: 27px;
-
+    margin-left: 195px;
 }

@@ -1,52 +1,11 @@
+.table{
 
+    margin-top: 50px;
+
+
+}
 table{
-    font-size: 8px;
-    font-weight: normal;
-    border-collapse: collapse;
-}
-#table {
-    margin-right: 400px;
-    margin-left: 400px;
-
-
-
+    margin-bottom: 100px;
 
 }
-#title{
-    margin-left: 350px;
-    margin-bottom: 30px;
-}
-
-table tr td{
-
-    padding: 10px 20px 10px 0px;
-
-
-
-}
-#news{
-    float: left;
-    margin-left: 400px;
-
-}
-#days{
-    float: left;
-    margin-left: 150px;
-
-}
-h4{
-    font-size: 10px;
-}
-p{
-    font-size: 10px;
-    font-weight: normal;
-}
-
-ul{
-    font-size: 10px;
-}
-td{
-    border-collapse: collapse;
-}
-
 

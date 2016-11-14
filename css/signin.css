@@ -1,45 +1,28 @@
 
-#container{
-    text-align: center;
-    margin-top: 30px;
-
-
-
 }
-.buttons{
-
-    font-family: Verdana;
-    float: left;
-    margin-top: 30px;
-    margin-left: 300px;
-
+.container{
+    margin-top:100px;
 }
-#for{
-    float: left;
-
-    font-size: 10px;
-    margin-top: 30px;
-    margin-left: 100px;
-}
-
-.container button{
-    width: 200px;
-    height: 20px;
-    padding: 5px;
-    border-radius: 5px;
-
+form{
+    height: 100px;
 }
 input{
 
     margin-top: 10px;
-}
-.sign{
-    float: right;
-    margin-right: 50px;
-
 
 }
-input [type=submit]{
+label{
+    margin-top: 10px;
 
-    border-radius: 5px;
+}
+.my-margin {
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+}
+.my-width{
+    width: 70px;
+}
+.width{
+    width: 200px;
 }
